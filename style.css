@@ -1,0 +1,203 @@
+html {
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ----- NAV ----- */
+
+nav {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 85px;
+    display:flex;
+    height: 36px;
+    width: 980px;
+    align-items: stretch;
+    border-radius: 4px;
+    font-size: 12px;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))),
+    -webkit-gradient(linear, 0 100%, 0 0, from(rgb(102, 102, 102)), color-stop(0.5, rgb(94, 94, 94)), color-stop(0.51, rgb(112, 112, 112)), to(rgb(128, 128, 128)));
+}
+
+#navUL{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#navUL li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    text-align: center;
+    border-right: 1px solid gray;
+}
+
+#navUL li:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    text-align: center;
+    border-right: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+
+#appleLogo {
+    height: 20px;
+}
+
+#search {
+    padding: 8px 13px;
+}
+
+#navSearch {
+    padding: 1px 18px 1px 22px;
+    width: 66px;
+    background: transparent;
+    border-radius: 30px;
+}
+
+#searchIcon {
+    position: absolute;
+    height: 12px;
+    top: 12px;
+    right: 105px;
+}
+
+/* ----- Main Content ----- */
+
+section {
+    height: 538px;
+    background-image: url(assets/your_verse_hero_2x.jpeg);
+    background-position: 50% 99%;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#header1, #subHeader1 {
+    width: 980px;
+}
+
+#subHeader1 {
+    margin-top: -10px;
+}
+
+#subHeader3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#playBtn {
+    height: 30px;
+    margin-left: 10px;
+}
+
+#headerBox {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+/* ----- Promos ----- */
+
+#promoList {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    max-width: 100%;
+    flex: 0 1 auto;
+    padding: 0;
+    margin-top: 2px;
+}
+
+.promo img {
+    width: 100%;
+}
+
+.promo img:hover {
+    cursor: pointer;
+    width: 100%;
+}
+
+
+
+/* ----- Footer ----- */
+
+footer {
+    font-size: 10px;
+    color: gray;
+    width: 980px;
+    margin: 0 auto;
+}
+
+footer a {
+    color: #55a4d8;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #55a4d8;
+    text-decoration: underline;
+}
+
+#topContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerNav {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0px;
+}
+
+.footerNav li {
+    height: 15px;
+    margin: 0px 3px;
+    border-right: 1px solid gray;
+    padding-right: 4px;
+}
+
+.footerNav li:last-child {
+    border: none;
+}
+
+#bottomContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#usaIcon {
+    height: 100%;
+}
